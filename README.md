@@ -9,7 +9,7 @@
  model.ApplyOperator(new Matrix(OperatorType.ROTATION_3D_X)); //apply rotation operator around axis X
  model.Save(path); //save to same file
  
- //After model processing you can display it in HelixToolkit Framework
+ //After model processing you can display it in HelixToolkit Framework in C# WPF
  ObjReader objReader = new ObjReader();
  model3d.Content = objReader.Read(path);
  ```
